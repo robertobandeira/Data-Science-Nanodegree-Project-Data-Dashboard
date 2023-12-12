@@ -23,7 +23,6 @@ def return_figures():
                  'NY.GDP.MKTP.CD':'GDP', 
                  'SE.XPD.TOTL.GD.ZS':'Education Expenditure'}, inplace=True)
     data['time'] = data.time.str.extract('(\d+)')
-    print(data.head())
 
     graph_one = []
     graph_two = []
