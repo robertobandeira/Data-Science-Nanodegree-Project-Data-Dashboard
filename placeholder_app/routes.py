@@ -1,7 +1,7 @@
 from placeholder_app import app
 import json, plotly
 from flask import render_template
-from data_scripts.wrangle_data import return_figures
+from data_scripts.data_cleaning import return_figures
 
 @app.route('/')
 @app.route('/index')
